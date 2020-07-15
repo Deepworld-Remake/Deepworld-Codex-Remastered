@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'telegramarender';
+    src: url('./Fonts/telegrama_render-webfont.woff2') format('woff2'),
+        url('./Fonts/telegrama_render-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Lucida Console", monospace;
+	font-size: 17px;
+}
+
+body {
+	text-align: center;
+}
+
+.section {
+	display: inline-block;
+	text-align: left;
+	border-radius: 10px;
+	border: 1px solid black;
+	margin: 10px;
+}
+
+.sectionData {
+	margin-top: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid black;
+	width: 300px;
+}
+
+.sectionDataName {
+	font-weight: bolder;
+}
+
+.sectionDataSprite {
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: -50px;
+}
