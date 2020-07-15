@@ -10,6 +10,7 @@
 	box-sizing: border-box;
 	font-family: "Lucida Console", monospace;
 	font-size: 17px;
+	user-select: none;
 }
 
 body {
@@ -37,7 +38,7 @@ body {
 }
 
 .sectionDataSprite {
-	width: 50px;
+	width: auto;
 	height: 50px;
 	float: right;
 	margin-top: -50px;

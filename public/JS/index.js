@@ -10,7 +10,12 @@ xhttp.onreadystatechange = function () {
 		itemData.forEach((e) => {
 			var newElement = document.createElement("div");
 			newElement.setAttribute("class", "sectionData");
-			newElement.innerHTML = `<span class="sectionDataName">${e.ui}</span><br><br><a href="./itemData?itemId=${e.id}" class="sectionDataLink">${e.ui} Information</a><br><img src="./Sprites/${e.sprite}" alt="" class="sectionDataSprite">`;
+			console.log(e.sprite);
+			var tempCss;
+			if (e.width) {
+				tempCss = "width:50px !important;height:auto !important;";
+			}
+			newElement.innerHTML = `<span class="sectionDataName">${e.ui}</span><br><br><a href="./itemData?itemId=${e.id}" class="sectionDataLink">${e.ui}</a><br><img style="${tempCss}" src="./Sprites/${e.sprite}.png" alt="" class="sectionDataSprite">`;
 			document.querySelector(".itemData").appendChild(newElement);
 		});
 	}
