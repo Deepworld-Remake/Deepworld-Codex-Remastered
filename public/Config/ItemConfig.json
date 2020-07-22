@@ -246,7 +246,7 @@
         "id": "28",
         "name": "purple-crystal",
         "ui": "Purple Crystal",
-        "sprite": "Inventory/ground/crystal-purple-small",
+        "sprite": "Inventory/ground/crystal-purple-1",
         "placedSprite": "",
         "placeable": true,
         "dim": 1
@@ -264,7 +264,7 @@
         "id": "30",
         "name": "red-crystal",
         "ui": "Red Crystal",
-        "sprite": "Inventory/ground/crystal-red-small",
+        "sprite": "Inventory/ground/crystal-red-1",
         "placedSprite": "",
         "placeable": true,
         "dim": 1
