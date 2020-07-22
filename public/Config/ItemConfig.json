@@ -14,7 +14,7 @@
         "ui": "Shillings",
         "sprite": "Inventory/accessories/shillings",
         "placeable": false,
-        "dim": 0
+        "dim": 1
     },
     {
         "id": "2",
@@ -231,7 +231,7 @@
         "sprite": "Inventory/ground/crystal-blue-2",
         "placedSprite": "",
         "placeable": true,
-        "dim": 1
+        "dim": [1, 2]
     },
     {
         "id": "27",
@@ -240,13 +240,13 @@
         "sprite": "Inventory/ground/crystal-blue-4",
         "placedSprite": "",
         "placeable": true,
-        "dim": 1
+        "dim": [1, 3]
     },
     {
         "id": "28",
         "name": "purple-crystal",
         "ui": "Purple Crystal",
-        "sprite": "Inventory/ground/crystal-purple-1",
+        "sprite": "Inventory/ground/crystal-purple-small",
         "placedSprite": "",
         "placeable": true,
         "dim": 1
@@ -258,94 +258,94 @@
         "sprite": "Inventory/ground/crystal-purple-large",
         "placedSprite": "",
         "placeable": true,
-        "dim": 1
+        "dim": [1, 2]
     },
     {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
+        "id": "30",
+        "name": "red-crystal",
+        "ui": "Red Crystal",
+        "sprite": "Inventory/ground/crystal-red-small",
         "placedSprite": "",
         "placeable": true,
         "dim": 1
     },
     {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
+        "id": "31",
+        "name": "large-red-crystal",
+        "ui": "Large Red Crystal",
+        "sprite": "Inventory/ground/crystal-red-large",
+        "placedSprite": "",
+        "placeable": true,
+        "dim": [1, 2]
+    },
+    {
+        "id": "32",
+        "name": "green-crystal",
+        "ui": "Green Crystal",
+        "sprite": "Inventory/ground/crystal-green-small",
         "placedSprite": "",
         "placeable": true,
         "dim": 1
     },
     {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
+        "id": "33",
+        "name": "large-green-crystal",
+        "ui": "Large Green Crystal",
+        "sprite": "Inventory/ground/crystal-green-large",
+        "placedSprite": "",
+        "placeable": true,
+        "dim": [1, 2]
+    },
+    {
+        "id": "34",
+        "name": "white-crystal",
+        "ui": "White Crystal",
+        "sprite": "Inventory/ground/crystal-white-small",
         "placedSprite": "",
         "placeable": true,
         "dim": 1
     },
     {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
+        "id": "35",
+        "name": "large-white-crystal",
+        "ui": "Large White Crystal",
+        "sprite": "Inventory/ground/crystal-white-large",
         "placedSprite": "",
         "placeable": true,
-        "dim": 1
+        "dim": [1, 2]
     },
     {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
+        "id": "36",
+        "name": "yellow-crystal",
+        "ui": "Yellow Crystal",
+        "sprite": "Inventory/ground/crystal-yellow",
         "placedSprite": "",
         "placeable": true,
-        "dim": 1
+        "dim": [1, 2]
     },
     {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
+        "id": "37",
+        "name": "orange-crystal",
+        "ui": "Orange Crystal",
+        "sprite": "Inventory/ground/crystal-orange",
         "placedSprite": "",
         "placeable": true,
-        "dim": 1
+        "dim": [2, 2]
     },
     {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
+        "id": "38",
+        "name": "rainbow-crystal",
+        "ui": "Rainbow Crystal",
+        "sprite": "Inventory/ground/crystal-rainbow",
         "placedSprite": "",
         "placeable": true,
-        "dim": 1
+        "dim": [2, 3]
     },
     {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
+        "id": "39",
+        "name": "onyx",
+        "ui": "Onyx",
+        "sprite": "Inventory/ground/onyx",
         "placedSprite": "",
         "placeable": true,
         "dim": 1
