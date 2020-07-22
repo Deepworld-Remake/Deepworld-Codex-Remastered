@@ -22,10 +22,7 @@ xhttp.onreadystatechange = function () {
 			let img = new Image();
 			img.src = "./Sprites/" + e.sprite + ".png";
 			await loadImage(img);
-			console.log(typeof e.dim);
-			if (typeof e.dim == Object) {
-				tempCss = `width: ${50 * e.dim[0]}px;height: ${50 * e.dim[1]};`;
-			}
+			tempCss = `width: ${50 * (e.dim[0] || 1)}px;height: ${50 * (e.dim[1] || 1)};`;
 			img.setAttribute("class", "sectionDataSprite");
 			img.setAttribute("style", tempCss);
 			newElement.innerHTML = `<span class="sectionDataName">${e.ui}</span><br><br><a href="./itemData?itemId=${e.id}" class="sectionDataLink">${e.ui}</a><br>`;
