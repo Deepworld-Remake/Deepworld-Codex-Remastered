@@ -1,661 +1,661 @@
 [{
-        "id": "0",
-        "name": "air",
-        "ui": "Air",
-        "sprite": "Inventory/unknown",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "1",
-        "name": "shillings",
-        "ui": "Shillings",
-        "sprite": "Inventory/accessories/shillings",
-        "desc": "",
-        "placeable": false,
-        "dim": 1
-    },
-    {
-        "id": "2",
-        "name": "earth",
-        "ui": "Earth",
-        "sprite": "Inventory/ground/earth",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "3",
-        "name": "compost",
-        "ui": "Compost",
-        "sprite": "Inventory/ground/earth-compost",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "4",
-        "name": "sandstone",
-        "ui": "Sandstone",
-        "sprite": "Inventory/ground/sandstone",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "5",
-        "name": "limestone",
-        "ui": "Limestone",
-        "sprite": "Inventory/ground/limestone",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "6",
-        "name": "sand",
-        "ui": "Sand",
-        "sprite": "Inventory/ground/sand",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "7",
-        "name": "wood-rubble",
-        "ui": "Wood Rubble",
-        "sprite": "Inventory/rubble/wood",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "8",
-        "name": "stone-rubble",
-        "ui": "Stone Rubble",
-        "sprite": "Inventory/rubble/stone",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": [2, 1]
-    },
-    {
-        "id": "9",
-        "name": "flax",
-        "ui": "Flax",
-        "sprite": "Inventory/ground/flax",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "10",
-        "name": "resin",
-        "ui": "Resin",
-        "width": true,
-        "sprite": "Inventory/ground/resin",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "11",
-        "name": "clay",
-        "ui": "Clay",
-        "sprite": "Inventory/ground/clay",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "12",
-        "name": "salt",
-        "ui": "Salt",
-        "sprite": "Inventory/ground/salt",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "13",
-        "name": "fire-salt",
-        "ui": "Fire Salt",
-        "sprite": "Inventory/ground/fire-salt",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "14",
-        "name": "iron-ore",
-        "ui": "Iron Ore",
-        "sprite": "Inventory/ground/iron-ore",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "16",
-        "name": "copper-ore",
-        "ui": "Copper Ore",
-        "sprite": "Inventory/ground/copper-ore",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "17",
-        "name": "zinc-ore",
-        "ui": "Zinc Ore",
-        "sprite": "Inventory/ground/zinc-ore",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "18",
-        "name": "lead-ore",
-        "ui": "Lead Ore",
-        "sprite": "Inventory/ground/lead-ore",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "19",
-        "name": "quartz-ore",
-        "ui": "Quartz Ore",
-        "sprite": "Inventory/ground/quartz-ore",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "20",
-        "name": "sulfur-ore",
-        "ui": "Sulfur Ore",
-        "sprite": "Inventory/ground/sulfur-ore",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "21",
-        "name": "marble-ore",
-        "ui": "Marble Ore",
-        "sprite": "Inventory/ground/marble-ore",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "22",
-        "name": "bloodstone-ore",
-        "ui": "Bloodstone Ore",
-        "sprite": "Inventory/ground/bloodstone-ore",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "23",
-        "name": "beryllium-ore",
-        "ui": "Beryllium Ore",
-        "sprite": "Inventory/ground/beryllium-ore",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "24",
-        "name": "diamond-ore",
-        "ui": "Diamond Ore",
-        "sprite": "Inventory/ground/diamond-ore",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "25",
-        "name": "blue-crystal",
-        "ui": "Blue Crystal",
-        "sprite": "Inventory/ground/crystal-blue-1",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "26",
-        "name": "medium-blue-crystal",
-        "ui": "Medium Blue Crystal",
-        "sprite": "Inventory/ground/crystal-blue-2",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": [1, 2]
-    },
-    {
-        "id": "27",
-        "name": "large-blue-crystal",
-        "ui": "Large Blue Crystal",
-        "sprite": "Inventory/ground/crystal-blue-4",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": [1, 3]
-    },
-    {
-        "id": "28",
-        "name": "purple-crystal",
-        "ui": "Purple Crystal",
-        "sprite": "Inventory/ground/crystal-purple-1",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "29",
-        "name": "large-purple-crystal",
-        "ui": "Large Purple Crystal",
-        "sprite": "Inventory/ground/crystal-purple-large",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": [1, 2]
-    },
-    {
-        "id": "30",
-        "name": "red-crystal",
-        "ui": "Red Crystal",
-        "sprite": "Inventory/ground/crystal-red-1",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "31",
-        "name": "large-red-crystal",
-        "ui": "Large Red Crystal",
-        "sprite": "Inventory/ground/crystal-red-large",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": [1, 2]
-    },
-    {
-        "id": "32",
-        "name": "green-crystal",
-        "ui": "Green Crystal",
-        "sprite": "Inventory/ground/crystal-green-small",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "33",
-        "name": "large-green-crystal",
-        "ui": "Large Green Crystal",
-        "sprite": "Inventory/ground/crystal-green-large",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": [1, 2]
-    },
-    {
-        "id": "34",
-        "name": "white-crystal",
-        "ui": "White Crystal",
-        "sprite": "Inventory/ground/crystal-white-small",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "35",
-        "name": "large-white-crystal",
-        "ui": "Large White Crystal",
-        "sprite": "Inventory/ground/crystal-white-large",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": [1, 2]
-    },
-    {
-        "id": "36",
-        "name": "yellow-crystal",
-        "ui": "Yellow Crystal",
-        "sprite": "Inventory/ground/crystal-yellow",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": [1, 2]
-    },
-    {
-        "id": "37",
-        "name": "orange-crystal",
-        "ui": "Orange Crystal",
-        "sprite": "Inventory/ground/crystal-orange",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": [2, 2]
-    },
-    {
-        "id": "38",
-        "name": "rainbow-crystal",
-        "ui": "Rainbow Crystal",
-        "sprite": "Inventory/ground/crystal-rainbow",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": [2, 3]
-    },
-    {
-        "id": "39",
-        "name": "onyx",
-        "ui": "Onyx",
-        "sprite": "Inventory/ground/onyx",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    },
-    {
-        "id": "",
-        "name": "",
-        "ui": "",
-        "sprite": "",
-        "placedSprite": "",
-        "desc": "",
-        "placeable": true,
-        "dim": 1
-    }
+    "id": "0",
+    "name": "air",
+    "ui": "Air",
+    "sprite": "Inventory/unknown",
+    "placedSprite": "",
+    "desc": "Empty Block. Unobtainable.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "1",
+    "name": "shillings",
+    "ui": "Shillings",
+    "sprite": "Inventory/accessories/shillings",
+    "desc": "Currency. Can be traded in for Crowns or used to craft Statues.",
+    "placeable": false,
+    "dim": 1
+},
+{
+    "id": "2",
+    "name": "earth",
+    "ui": "Earth",
+    "sprite": "Inventory/ground/earth",
+    "placedSprite": "",
+    "desc": "Basic dirt block. Most common material in the game.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "3",
+    "name": "compost",
+    "ui": "Compost",
+    "sprite": "Inventory/ground/earth-compost",
+    "placedSprite": "",
+    "desc": "Fertilized earth blocks. Can be used to grow plants under sun and rain in a Purified World.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "4",
+    "name": "sandstone",
+    "ui": "Sandstone",
+    "sprite": "Inventory/ground/sandstone",
+    "placedSprite": "",
+    "desc": "Basic stone material. Can be crafted into bricks, found mostly everywhere.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "5",
+    "name": "limestone",
+    "ui": "Limestone",
+    "sprite": "Inventory/ground/limestone",
+    "placedSprite": "",
+    "desc": "Basic stone material. Can be crafted into bricks, found mostly everywhere.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "6",
+    "name": "sand",
+    "ui": "Sand",
+    "sprite": "Inventory/ground/sand",
+    "placedSprite": "",
+    "desc": "Slightly uncommon block. No uses at the moment.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "7",
+    "name": "wood-rubble",
+    "ui": "Wood Rubble",
+    "sprite": "Inventory/rubble/wood",
+    "placedSprite": "",
+    "desc": "Scraps of broken wood. Found in ruins, can be used to craft wood.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "8",
+    "name": "stone-rubble",
+    "ui": "Stone Rubble",
+    "sprite": "Inventory/rubble/stone",
+    "placedSprite": "",
+    "desc": "Bits of stone. Found in ruins, can be used to craft stone.",
+    "placeable": true,
+    "dim": [2, 1]
+},
+{
+    "id": "9",
+    "name": "flax",
+    "ui": "Flax",
+    "sprite": "Inventory/ground/flax",
+    "placedSprite": "",
+    "desc": "Common dead plant. Found in every biome. Can be used to craft a variety of basic materials and blocks.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "10",
+    "name": "resin",
+    "ui": "Resin",
+    "width": true,
+    "sprite": "Inventory/ground/resin",
+    "placedSprite": "",
+    "desc": "Remains of Terrapus Eggs and other organic matter. Used in a variety of applications.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "11",
+    "name": "clay",
+    "ui": "Clay",
+    "sprite": "Inventory/ground/clay",
+    "placedSprite": "",
+    "desc": "Found underground in varying patches. Can be used to craft bricks and other materials.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "12",
+    "name": "salt",
+    "ui": "Salt",
+    "sprite": "Inventory/ground/salt",
+    "placedSprite": "",
+    "desc": "Common underground crystal. Used to dry out organic matter into a preserved food among other applications.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "13",
+    "name": "fire-salt",
+    "ui": "Fire Salt",
+    "sprite": "Inventory/ground/fire-salt",
+    "placedSprite": "",
+    "desc": "Rarer variety of salt. Only formed in hell biomes. Can be used to create a more powerful variation of food created with normal salt.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "14",
+    "name": "iron-ore",
+    "ui": "Iron Ore",
+    "sprite": "Inventory/ground/iron-ore",
+    "placedSprite": "",
+    "desc": "Common metal. Used to craft a large amount of tools and materials.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "16",
+    "name": "copper-ore",
+    "ui": "Copper Ore",
+    "sprite": "Inventory/ground/copper-ore",
+    "placedSprite": "",
+    "desc": "Common metal. Used to craft a large amount of blocks and materials.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "17",
+    "name": "zinc-ore",
+    "ui": "Zinc Ore",
+    "sprite": "Inventory/ground/zinc-ore",
+    "placedSprite": "",
+    "desc": "Common ore. Used in electrical applications, and used to create alloys.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "18",
+    "name": "lead-ore",
+    "ui": "Lead Ore",
+    "sprite": "Inventory/ground/lead-ore",
+    "placedSprite": "",
+    "desc": "Common metal. Used to craft a large amount of blocks and materials.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "19",
+    "name": "quartz-ore",
+    "ui": "Quartz Ore",
+    "sprite": "Inventory/ground/quartz-ore",
+    "placedSprite": "",
+    "desc": "Common ore. Used to craft glass and other crystaline materials.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "20",
+    "name": "sulfur-ore",
+    "ui": "Sulfur Ore",
+    "sprite": "Inventory/ground/sulfur-ore",
+    "placedSprite": "",
+    "desc": "Uncommon ore. Used to craft explosives and other materials.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "21",
+    "name": "marble-ore",
+    "ui": "Marble Ore",
+    "sprite": "Inventory/ground/marble-ore",
+    "placedSprite": "",
+    "desc": "Common ore. Used to create building materials and mainly decorational items.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "22",
+    "name": "bloodstone-ore",
+    "ui": "Bloodstone Ore",
+    "sprite": "Inventory/ground/bloodstone-ore",
+    "placedSprite": "",
+    "desc": "Uncommon ore only found in the hell biome. Mainly used to craft bloodstone variations of marble items and statues.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "23",
+    "name": "beryllium-ore",
+    "ui": "Beryllium Ore",
+    "sprite": "Inventory/ground/beryllium-ore",
+    "placedSprite": "",
+    "desc": "Uncommon metal only found in the desert biome. Used in many technical and decorational applications.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "24",
+    "name": "diamond-ore",
+    "ui": "Diamond Ore",
+    "sprite": "Inventory/ground/diamond-ore",
+    "placedSprite": "",
+    "desc": "Very rare ore only found in the ice biome. Mainly used to craft powerful tools and weapons. Can also be used to make upgraded technology.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "25",
+    "name": "blue-crystal",
+    "ui": "Blue Crystal",
+    "sprite": "Inventory/ground/crystal-blue-1",
+    "placedSprite": "",
+    "desc": "Common crystal. Mainly used in technology and weapons. Can also be used to create decorational blocks.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "26",
+    "name": "medium-blue-crystal",
+    "ui": "Medium Blue Crystal",
+    "sprite": "Inventory/ground/crystal-blue-2",
+    "placedSprite": "",
+    "desc": "Common crystal. Decorational.",
+    "placeable": true,
+    "dim": [1, 2]
+},
+{
+    "id": "27",
+    "name": "large-blue-crystal",
+    "ui": "Large Blue Crystal",
+    "sprite": "Inventory/ground/crystal-blue-4",
+    "placedSprite": "",
+    "desc": "Uncommon crystal. Decorational.",
+    "placeable": true,
+    "dim": [1, 3]
+},
+{
+    "id": "28",
+    "name": "purple-crystal",
+    "ui": "Purple Crystal",
+    "sprite": "Inventory/ground/crystal-purple-1",
+    "placedSprite": "",
+    "desc": "Uncommon crystal. Mainly used in technology and weapons. Can also be used to create decorational blocks.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "29",
+    "name": "large-purple-crystal",
+    "ui": "Large Purple Crystal",
+    "sprite": "Inventory/ground/crystal-purple-large",
+    "placedSprite": "",
+    "desc": "Uncommon crystal. Decorational.",
+    "placeable": true,
+    "dim": [1, 2]
+},
+{
+    "id": "30",
+    "name": "red-crystal",
+    "ui": "Red Crystal",
+    "sprite": "Inventory/ground/crystal-red-1",
+    "placedSprite": "",
+    "desc": "Uncommon crystal. Mainly used in technology and weapons. Can also be used to create decorational blocks.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "31",
+    "name": "large-red-crystal",
+    "ui": "Large Red Crystal",
+    "sprite": "Inventory/ground/crystal-red-large",
+    "placedSprite": "",
+    "desc": "Rare crystal. Decorational.",
+    "placeable": true,
+    "dim": [1, 2]
+},
+{
+    "id": "32",
+    "name": "green-crystal",
+    "ui": "Green Crystal",
+    "sprite": "Inventory/ground/crystal-green-small",
+    "placedSprite": "",
+    "desc": "Uncommon crystal only found in the space biome. Mainly used in technology and weapons.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "33",
+    "name": "large-green-crystal",
+    "ui": "Large Green Crystal",
+    "sprite": "Inventory/ground/crystal-green-large",
+    "placedSprite": "",
+    "desc": "Rare crystal only found in the space biome. Decorational.",
+    "placeable": true,
+    "dim": [1, 2]
+},
+{
+    "id": "34",
+    "name": "white-crystal",
+    "ui": "White Crystal",
+    "sprite": "Inventory/ground/crystal-white-small",
+    "placedSprite": "Uncommon crystal only found in the space biome. Mainly used in technology and weapons.",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "35",
+    "name": "large-white-crystal",
+    "ui": "Large White Crystal",
+    "sprite": "Inventory/ground/crystal-white-large",
+    "placedSprite": "",
+    "desc": "Rare crystal only found in the space biome. Decorational.",
+    "placeable": true,
+    "dim": [1, 2]
+},
+{
+    "id": "36",
+    "name": "yellow-crystal",
+    "ui": "Yellow Crystal",
+    "sprite": "Inventory/ground/crystal-yellow",
+    "placedSprite": "",
+    "desc": "Rare crystal only found in the desert biome. Decorational.",
+    "placeable": true,
+    "dim": [1, 2]
+},
+{
+    "id": "37",
+    "name": "orange-crystal",
+    "ui": "Orange Crystal",
+    "sprite": "Inventory/ground/crystal-orange",
+    "placedSprite": "",
+    "desc": "Very rare crystal only found in the deep biome. Decorational.",
+    "placeable": true,
+    "dim": [2, 2]
+},
+{
+    "id": "38",
+    "name": "rainbow-crystal",
+    "ui": "Rainbow Crystal",
+    "sprite": "Inventory/ground/crystal-rainbow",
+    "placedSprite": "",
+    "desc": "Very rare crystal found in most biomes. Decorational.",
+    "placeable": true,
+    "dim": [2, 3]
+},
+{
+    "id": "39",
+    "name": "onyx",
+    "ui": "Onyx",
+    "sprite": "Inventory/ground/onyx",
+    "placedSprite": "",
+    "desc": "Extremely rare gem found in most biomes. Used to create powerful weapons and tools. Also used to upgrade technology.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "40",
+    "name": "platinum-ore",
+    "ui": "Platinum Ore",
+    "sprite": "Inventory/ground/platinum-ore",
+    "placedSprite": "",
+    "desc": "Rare metal. In large quanities, it is used to upgrade onyx tier items. Highest tier material in the game besides the beta tools.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "41",
+    "name": "ice",
+    "ui": "Ice",
+    "sprite": "Inventory/arctic/ice",
+    "placedSprite": "",
+    "desc": "Common material only found in the arctic biome. Can be used to craft a large variety of ice themed blocks and decoration.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "42",
+    "name": "snow",
+    "ui": "Snow",
+    "sprite": "Inventory/arctic/snow",
+    "placedSprite": "",
+    "desc": "Common material only found in the arctic biome. Can be used to craft a large variety of snow themed blocks and decoration.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "43",
+    "name": "water",
+    "ui": "Water Block",
+    "sprite": "Inventory/liquid/water",
+    "placedSprite": "",
+    "desc": "Common fluid. Unobtainable. Can be packed into jars.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "44",
+    "name": "acid",
+    "ui": "Acid Block",
+    "sprite": "Inventory/liquid/acid",
+    "placedSprite": "",
+    "desc": "Common fluid. Unobtainable. Can be packed into jars.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "45",
+    "name": "magma",
+    "ui": "Magma Block",
+    "sprite": "Inventory/liquid/magma",
+    "placedSprite": "",
+    "desc": "Uncommon fluid. Unobtainable.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "46",
+    "name": "wood",
+    "ui": "Wood",
+    "sprite": "Inventory/building/wood",
+    "placedSprite": "",
+    "desc": "Common material. Used in a variety of recipes and applications.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "47",
+    "name": "stone",
+    "ui": "Stone",
+    "sprite": "Inventory/ground/stone",
+    "placedSprite": "",
+    "desc": "Common material. Used in a lot of recipes and applications.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "48",
+    "name": "pitch",
+    "ui": "Pitch",
+    "sprite": "Inventory/building/pitch",
+    "placedSprite": "",
+    "desc": "Common artificial material. Used in a lot of construction applications.",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+},
+{
+    "id": "",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
+    "placeable": true,
+    "dim": 1
+}
 ]
