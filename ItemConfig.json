@@ -2,7 +2,7 @@
         "id": "0",
         "name": "air",
         "ui": "Air",
-        "sprite": "Inventory/unknown",
+        "sprite": "Inventory/none",
         "placedSprite": "",
         "desc": "Empty Block. Unobtainable.",
         "placeable": true,
