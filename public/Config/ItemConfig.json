@@ -1,661 +1,1170 @@
 [{
-    "id": "0",
-    "name": "air",
-    "ui": "Air",
-    "sprite": "Inventory/unknown",
-    "placedSprite": "",
-    "desc": "Empty Block. Unobtainable.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "1",
-    "name": "shillings",
-    "ui": "Shillings",
-    "sprite": "Inventory/accessories/shillings",
-    "desc": "Currency. Can be traded in for Crowns or used to craft Statues.",
-    "placeable": false,
-    "dim": 1
-},
-{
-    "id": "2",
-    "name": "earth",
-    "ui": "Earth",
-    "sprite": "Inventory/ground/earth",
-    "placedSprite": "",
-    "desc": "Basic dirt block. Most common material in the game.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "3",
-    "name": "compost",
-    "ui": "Compost",
-    "sprite": "Inventory/ground/earth-compost",
-    "placedSprite": "",
-    "desc": "Fertilized earth blocks. Can be used to grow plants under sun and rain in a Purified World.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "4",
-    "name": "sandstone",
-    "ui": "Sandstone",
-    "sprite": "Inventory/ground/sandstone",
-    "placedSprite": "",
-    "desc": "Basic stone material. Can be crafted into bricks, found mostly everywhere.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "5",
-    "name": "limestone",
-    "ui": "Limestone",
-    "sprite": "Inventory/ground/limestone",
-    "placedSprite": "",
-    "desc": "Basic stone material. Can be crafted into bricks, found mostly everywhere.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "6",
-    "name": "sand",
-    "ui": "Sand",
-    "sprite": "Inventory/ground/sand",
-    "placedSprite": "",
-    "desc": "Slightly uncommon block. No uses at the moment.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "7",
-    "name": "wood-rubble",
-    "ui": "Wood Rubble",
-    "sprite": "Inventory/rubble/wood",
-    "placedSprite": "",
-    "desc": "Scraps of broken wood. Found in ruins, can be used to craft wood.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "8",
-    "name": "stone-rubble",
-    "ui": "Stone Rubble",
-    "sprite": "Inventory/rubble/stone",
-    "placedSprite": "",
-    "desc": "Bits of stone. Found in ruins, can be used to craft stone.",
-    "placeable": true,
-    "dim": [2, 1]
-},
-{
-    "id": "9",
-    "name": "flax",
-    "ui": "Flax",
-    "sprite": "Inventory/ground/flax",
-    "placedSprite": "",
-    "desc": "Common dead plant. Found in every biome. Can be used to craft a variety of basic materials and blocks.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "10",
-    "name": "resin",
-    "ui": "Resin",
-    "width": true,
-    "sprite": "Inventory/ground/resin",
-    "placedSprite": "",
-    "desc": "Remains of Terrapus Eggs and other organic matter. Used in a variety of applications.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "11",
-    "name": "clay",
-    "ui": "Clay",
-    "sprite": "Inventory/ground/clay",
-    "placedSprite": "",
-    "desc": "Found underground in varying patches. Can be used to craft bricks and other materials.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "12",
-    "name": "salt",
-    "ui": "Salt",
-    "sprite": "Inventory/ground/salt",
-    "placedSprite": "",
-    "desc": "Common underground crystal. Used to dry out organic matter into a preserved food among other applications.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "13",
-    "name": "fire-salt",
-    "ui": "Fire Salt",
-    "sprite": "Inventory/ground/fire-salt",
-    "placedSprite": "",
-    "desc": "Rarer variety of salt. Only formed in hell biomes. Can be used to create a more powerful variation of food created with normal salt.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "14",
-    "name": "iron-ore",
-    "ui": "Iron Ore",
-    "sprite": "Inventory/ground/iron-ore",
-    "placedSprite": "",
-    "desc": "Common metal. Used to craft a large amount of tools and materials.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "16",
-    "name": "copper-ore",
-    "ui": "Copper Ore",
-    "sprite": "Inventory/ground/copper-ore",
-    "placedSprite": "",
-    "desc": "Common metal. Used to craft a large amount of blocks and materials.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "17",
-    "name": "zinc-ore",
-    "ui": "Zinc Ore",
-    "sprite": "Inventory/ground/zinc-ore",
-    "placedSprite": "",
-    "desc": "Common ore. Used in electrical applications, and used to create alloys.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "18",
-    "name": "lead-ore",
-    "ui": "Lead Ore",
-    "sprite": "Inventory/ground/lead-ore",
-    "placedSprite": "",
-    "desc": "Common metal. Used to craft a large amount of blocks and materials.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "19",
-    "name": "quartz-ore",
-    "ui": "Quartz Ore",
-    "sprite": "Inventory/ground/quartz-ore",
-    "placedSprite": "",
-    "desc": "Common ore. Used to craft glass and other crystaline materials.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "20",
-    "name": "sulfur-ore",
-    "ui": "Sulfur Ore",
-    "sprite": "Inventory/ground/sulfur-ore",
-    "placedSprite": "",
-    "desc": "Uncommon ore. Used to craft explosives and other materials.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "21",
-    "name": "marble-ore",
-    "ui": "Marble Ore",
-    "sprite": "Inventory/ground/marble-ore",
-    "placedSprite": "",
-    "desc": "Common ore. Used to create building materials and mainly decorational items.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "22",
-    "name": "bloodstone-ore",
-    "ui": "Bloodstone Ore",
-    "sprite": "Inventory/ground/bloodstone-ore",
-    "placedSprite": "",
-    "desc": "Uncommon ore only found in the hell biome. Mainly used to craft bloodstone variations of marble items and statues.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "23",
-    "name": "beryllium-ore",
-    "ui": "Beryllium Ore",
-    "sprite": "Inventory/ground/beryllium-ore",
-    "placedSprite": "",
-    "desc": "Uncommon metal only found in the desert biome. Used in many technical and decorational applications.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "24",
-    "name": "diamond-ore",
-    "ui": "Diamond Ore",
-    "sprite": "Inventory/ground/diamond-ore",
-    "placedSprite": "",
-    "desc": "Very rare ore only found in the ice biome. Mainly used to craft powerful tools and weapons. Can also be used to make upgraded technology.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "25",
-    "name": "blue-crystal",
-    "ui": "Blue Crystal",
-    "sprite": "Inventory/ground/crystal-blue-1",
-    "placedSprite": "",
-    "desc": "Common crystal. Mainly used in technology and weapons. Can also be used to create decorational blocks.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "26",
-    "name": "medium-blue-crystal",
-    "ui": "Medium Blue Crystal",
-    "sprite": "Inventory/ground/crystal-blue-2",
-    "placedSprite": "",
-    "desc": "Common crystal. Decorational.",
-    "placeable": true,
-    "dim": [1, 2]
-},
-{
-    "id": "27",
-    "name": "large-blue-crystal",
-    "ui": "Large Blue Crystal",
-    "sprite": "Inventory/ground/crystal-blue-4",
-    "placedSprite": "",
-    "desc": "Uncommon crystal. Decorational.",
-    "placeable": true,
-    "dim": [1, 3]
-},
-{
-    "id": "28",
-    "name": "purple-crystal",
-    "ui": "Purple Crystal",
-    "sprite": "Inventory/ground/crystal-purple-1",
-    "placedSprite": "",
-    "desc": "Uncommon crystal. Mainly used in technology and weapons. Can also be used to create decorational blocks.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "29",
-    "name": "large-purple-crystal",
-    "ui": "Large Purple Crystal",
-    "sprite": "Inventory/ground/crystal-purple-large",
-    "placedSprite": "",
-    "desc": "Uncommon crystal. Decorational.",
-    "placeable": true,
-    "dim": [1, 2]
-},
-{
-    "id": "30",
-    "name": "red-crystal",
-    "ui": "Red Crystal",
-    "sprite": "Inventory/ground/crystal-red-1",
-    "placedSprite": "",
-    "desc": "Uncommon crystal. Mainly used in technology and weapons. Can also be used to create decorational blocks.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "31",
-    "name": "large-red-crystal",
-    "ui": "Large Red Crystal",
-    "sprite": "Inventory/ground/crystal-red-large",
-    "placedSprite": "",
-    "desc": "Rare crystal. Decorational.",
-    "placeable": true,
-    "dim": [1, 2]
-},
-{
-    "id": "32",
-    "name": "green-crystal",
-    "ui": "Green Crystal",
-    "sprite": "Inventory/ground/crystal-green-small",
-    "placedSprite": "",
-    "desc": "Uncommon crystal only found in the space biome. Mainly used in technology and weapons.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "33",
-    "name": "large-green-crystal",
-    "ui": "Large Green Crystal",
-    "sprite": "Inventory/ground/crystal-green-large",
-    "placedSprite": "",
-    "desc": "Rare crystal only found in the space biome. Decorational.",
-    "placeable": true,
-    "dim": [1, 2]
-},
-{
-    "id": "34",
-    "name": "white-crystal",
-    "ui": "White Crystal",
-    "sprite": "Inventory/ground/crystal-white-small",
-    "placedSprite": "Uncommon crystal only found in the space biome. Mainly used in technology and weapons.",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "35",
-    "name": "large-white-crystal",
-    "ui": "Large White Crystal",
-    "sprite": "Inventory/ground/crystal-white-large",
-    "placedSprite": "",
-    "desc": "Rare crystal only found in the space biome. Decorational.",
-    "placeable": true,
-    "dim": [1, 2]
-},
-{
-    "id": "36",
-    "name": "yellow-crystal",
-    "ui": "Yellow Crystal",
-    "sprite": "Inventory/ground/crystal-yellow",
-    "placedSprite": "",
-    "desc": "Rare crystal only found in the desert biome. Decorational.",
-    "placeable": true,
-    "dim": [1, 2]
-},
-{
-    "id": "37",
-    "name": "orange-crystal",
-    "ui": "Orange Crystal",
-    "sprite": "Inventory/ground/crystal-orange",
-    "placedSprite": "",
-    "desc": "Very rare crystal only found in the deep biome. Decorational.",
-    "placeable": true,
-    "dim": [2, 2]
-},
-{
-    "id": "38",
-    "name": "rainbow-crystal",
-    "ui": "Rainbow Crystal",
-    "sprite": "Inventory/ground/crystal-rainbow",
-    "placedSprite": "",
-    "desc": "Very rare crystal found in most biomes. Decorational.",
-    "placeable": true,
-    "dim": [2, 3]
-},
-{
-    "id": "39",
-    "name": "onyx",
-    "ui": "Onyx",
-    "sprite": "Inventory/ground/onyx",
-    "placedSprite": "",
-    "desc": "Extremely rare gem found in most biomes. Used to create powerful weapons and tools. Also used to upgrade technology.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "40",
-    "name": "platinum-ore",
-    "ui": "Platinum Ore",
-    "sprite": "Inventory/ground/platinum-ore",
-    "placedSprite": "",
-    "desc": "Rare metal. In large quanities, it is used to upgrade onyx tier items. Highest tier material in the game besides the beta tools.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "41",
-    "name": "ice",
-    "ui": "Ice",
-    "sprite": "Inventory/arctic/ice",
-    "placedSprite": "",
-    "desc": "Common material only found in the arctic biome. Can be used to craft a large variety of ice themed blocks and decoration.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "42",
-    "name": "snow",
-    "ui": "Snow",
-    "sprite": "Inventory/arctic/snow",
-    "placedSprite": "",
-    "desc": "Common material only found in the arctic biome. Can be used to craft a large variety of snow themed blocks and decoration.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "43",
-    "name": "water",
-    "ui": "Water Block",
-    "sprite": "Inventory/liquid/water",
-    "placedSprite": "",
-    "desc": "Common fluid. Unobtainable. Can be packed into jars.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "44",
-    "name": "acid",
-    "ui": "Acid Block",
-    "sprite": "Inventory/liquid/acid",
-    "placedSprite": "",
-    "desc": "Common fluid. Unobtainable. Can be packed into jars.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "45",
-    "name": "magma",
-    "ui": "Magma Block",
-    "sprite": "Inventory/liquid/magma",
-    "placedSprite": "",
-    "desc": "Uncommon fluid. Unobtainable.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "46",
-    "name": "wood",
-    "ui": "Wood",
-    "sprite": "Inventory/building/wood",
-    "placedSprite": "",
-    "desc": "Common material. Used in a variety of recipes and applications.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "47",
-    "name": "stone",
-    "ui": "Stone",
-    "sprite": "Inventory/ground/stone",
-    "placedSprite": "",
-    "desc": "Common material. Used in a lot of recipes and applications.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "48",
-    "name": "pitch",
-    "ui": "Pitch",
-    "sprite": "Inventory/building/pitch",
-    "placedSprite": "",
-    "desc": "Common artificial material. Used in a lot of construction applications.",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-},
-{
-    "id": "",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "placeable": true,
-    "dim": 1
-}
+        "id": "0",
+        "name": "air",
+        "ui": "Air",
+        "sprite": "Inventory/unknown",
+        "placedSprite": "",
+        "desc": "Empty Block. Unobtainable.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "1",
+        "name": "shillings",
+        "ui": "Shillings",
+        "sprite": "Inventory/accessories/shillings",
+        "desc": "Currency. Can be traded in for Crowns or used to craft Statues.",
+        "placeable": false,
+        "dim": 0
+    },
+    {
+        "id": "2",
+        "name": "earth",
+        "ui": "Earth",
+        "sprite": "Inventory/ground/earth",
+        "placedSprite": "",
+        "desc": "Basic dirt block. Most common material in the game.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "3",
+        "name": "compost",
+        "ui": "Compost",
+        "sprite": "Inventory/ground/earth-compost",
+        "placedSprite": "",
+        "desc": "Fertilized earth blocks. Can be used to grow plants under sun and rain in a Purified World.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "4",
+        "name": "sandstone",
+        "ui": "Sandstone",
+        "sprite": "Inventory/ground/sandstone",
+        "placedSprite": "",
+        "desc": "Basic stone material. Can be crafted into bricks, found mostly everywhere.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "5",
+        "name": "limestone",
+        "ui": "Limestone",
+        "sprite": "Inventory/ground/limestone",
+        "placedSprite": "",
+        "desc": "Basic stone material. Can be crafted into bricks, found mostly everywhere.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "6",
+        "name": "sand",
+        "ui": "Sand",
+        "sprite": "Inventory/ground/sand",
+        "placedSprite": "",
+        "desc": "Slightly uncommon block. No uses at the moment.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "7",
+        "name": "wood-rubble",
+        "ui": "Wood Rubble",
+        "sprite": "Inventory/rubble/wood",
+        "placedSprite": "",
+        "desc": "Scraps of broken wood. Found in ruins, can be used to craft wood.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "8",
+        "name": "stone-rubble",
+        "ui": "Stone Rubble",
+        "sprite": "Inventory/rubble/stone",
+        "placedSprite": "",
+        "desc": "Bits of stone. Found in ruins, can be used to craft stone.",
+        "placeable": true,
+        "dim": [2, 1]
+    },
+    {
+        "id": "9",
+        "name": "flax",
+        "ui": "Flax",
+        "sprite": "Inventory/ground/flax",
+        "placedSprite": "",
+        "desc": "Common dead plant. Found in every biome. Can be used to craft a variety of basic materials and blocks.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "10",
+        "name": "resin",
+        "ui": "Resin",
+        "width": true,
+        "sprite": "Inventory/ground/resin",
+        "placedSprite": "",
+        "desc": "Remains of Terrapus Eggs and other organic matter. Used in a variety of applications.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "11",
+        "name": "clay",
+        "ui": "Clay",
+        "sprite": "Inventory/ground/clay",
+        "placedSprite": "",
+        "desc": "Found underground in varying patches. Can be used to craft bricks and other materials.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "12",
+        "name": "salt",
+        "ui": "Salt",
+        "sprite": "Inventory/ground/salt",
+        "placedSprite": "",
+        "desc": "Common underground crystal. Used to dry out organic matter into a preserved food among other applications.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "13",
+        "name": "fire-salt",
+        "ui": "Fire Salt",
+        "sprite": "Inventory/ground/fire-salt",
+        "placedSprite": "",
+        "desc": "Rarer variety of salt. Only formed in hell biomes. Can be used to create a more powerful variation of food created with normal salt.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "14",
+        "name": "iron-ore",
+        "ui": "Iron Ore",
+        "sprite": "Inventory/ground/iron-ore",
+        "placedSprite": "",
+        "desc": "Common metal. Used to craft a large amount of tools and materials.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "16",
+        "name": "copper-ore",
+        "ui": "Copper Ore",
+        "sprite": "Inventory/ground/copper-ore",
+        "placedSprite": "",
+        "desc": "Common metal. Used to craft a large amount of blocks and materials.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "17",
+        "name": "zinc-ore",
+        "ui": "Zinc Ore",
+        "sprite": "Inventory/ground/zinc-ore",
+        "placedSprite": "",
+        "desc": "Common ore. Used in electrical applications, and used to create alloys.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "18",
+        "name": "lead-ore",
+        "ui": "Lead Ore",
+        "sprite": "Inventory/ground/lead-ore",
+        "placedSprite": "",
+        "desc": "Common metal. Used to craft a large amount of blocks and materials.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "19",
+        "name": "quartz-ore",
+        "ui": "Quartz Ore",
+        "sprite": "Inventory/ground/quartz-ore",
+        "placedSprite": "",
+        "desc": "Common ore. Used to craft glass and other crystaline materials.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "20",
+        "name": "sulfur-ore",
+        "ui": "Sulfur Ore",
+        "sprite": "Inventory/ground/sulfur-ore",
+        "placedSprite": "",
+        "desc": "Uncommon ore. Used to craft explosives and other materials.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "21",
+        "name": "marble-ore",
+        "ui": "Marble Ore",
+        "sprite": "Inventory/ground/marble-ore",
+        "placedSprite": "",
+        "desc": "Common ore. Used to create building materials and mainly decorational items.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "22",
+        "name": "bloodstone-ore",
+        "ui": "Bloodstone Ore",
+        "sprite": "Inventory/ground/bloodstone-ore",
+        "placedSprite": "",
+        "desc": "Uncommon ore only found in the hell biome. Mainly used to craft bloodstone variations of marble items and statues.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "23",
+        "name": "beryllium-ore",
+        "ui": "Beryllium Ore",
+        "sprite": "Inventory/ground/beryllium-ore",
+        "placedSprite": "",
+        "desc": "Uncommon metal only found in the desert biome. Used in many technical and decorational applications.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "24",
+        "name": "diamond-ore",
+        "ui": "Diamond Ore",
+        "sprite": "Inventory/ground/diamond-ore",
+        "placedSprite": "",
+        "desc": "Very rare ore only found in the ice biome. Mainly used to craft powerful tools and weapons. Can also be used to make upgraded technology.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "25",
+        "name": "blue-crystal",
+        "ui": "Blue Crystal",
+        "sprite": "Inventory/ground/crystal-blue-1",
+        "placedSprite": "",
+        "desc": "Common crystal. Mainly used in technology and weapons. Can also be used to create decorational blocks.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "26",
+        "name": "medium-blue-crystal",
+        "ui": "Medium Blue Crystal",
+        "sprite": "Inventory/ground/crystal-blue-2",
+        "placedSprite": "",
+        "desc": "Common crystal. Decorational.",
+        "placeable": true,
+        "dim": [1, 2]
+    },
+    {
+        "id": "27",
+        "name": "large-blue-crystal",
+        "ui": "Large Blue Crystal",
+        "sprite": "Inventory/ground/crystal-blue-4",
+        "placedSprite": "",
+        "desc": "Uncommon crystal. Decorational.",
+        "placeable": true,
+        "dim": [1, 3]
+    },
+    {
+        "id": "28",
+        "name": "purple-crystal",
+        "ui": "Purple Crystal",
+        "sprite": "Inventory/ground/crystal-purple-1",
+        "placedSprite": "",
+        "desc": "Uncommon crystal. Mainly used in technology and weapons. Can also be used to create decorational blocks.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "29",
+        "name": "large-purple-crystal",
+        "ui": "Large Purple Crystal",
+        "sprite": "Inventory/ground/crystal-purple-large",
+        "placedSprite": "",
+        "desc": "Uncommon crystal. Decorational.",
+        "placeable": true,
+        "dim": [1, 2]
+    },
+    {
+        "id": "30",
+        "name": "red-crystal",
+        "ui": "Red Crystal",
+        "sprite": "Inventory/ground/crystal-red-1",
+        "placedSprite": "",
+        "desc": "Uncommon crystal. Mainly used in technology and weapons. Can also be used to create decorational blocks.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "31",
+        "name": "large-red-crystal",
+        "ui": "Large Red Crystal",
+        "sprite": "Inventory/ground/crystal-red-large",
+        "placedSprite": "",
+        "desc": "Rare crystal. Decorational.",
+        "placeable": true,
+        "dim": [1, 2]
+    },
+    {
+        "id": "32",
+        "name": "green-crystal",
+        "ui": "Green Crystal",
+        "sprite": "Inventory/ground/crystal-green-small",
+        "placedSprite": "",
+        "desc": "Uncommon crystal only found in the space biome. Mainly used in technology and weapons.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "33",
+        "name": "large-green-crystal",
+        "ui": "Large Green Crystal",
+        "sprite": "Inventory/ground/crystal-green-large",
+        "placedSprite": "",
+        "desc": "Rare crystal only found in the space biome. Decorational.",
+        "placeable": true,
+        "dim": [1, 2]
+    },
+    {
+        "id": "34",
+        "name": "white-crystal",
+        "ui": "White Crystal",
+        "sprite": "Inventory/ground/crystal-white-small",
+        "placedSprite": "Uncommon crystal only found in the space biome. Mainly used in technology and weapons.",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "35",
+        "name": "large-white-crystal",
+        "ui": "Large White Crystal",
+        "sprite": "Inventory/ground/crystal-white-large",
+        "placedSprite": "",
+        "desc": "Rare crystal only found in the space biome. Decorational.",
+        "placeable": true,
+        "dim": [1, 2]
+    },
+    {
+        "id": "36",
+        "name": "yellow-crystal",
+        "ui": "Yellow Crystal",
+        "sprite": "Inventory/ground/crystal-yellow",
+        "placedSprite": "",
+        "desc": "Rare crystal only found in the desert biome. Decorational.",
+        "placeable": true,
+        "dim": [1, 2]
+    },
+    {
+        "id": "37",
+        "name": "orange-crystal",
+        "ui": "Orange Crystal",
+        "sprite": "Inventory/ground/crystal-orange",
+        "placedSprite": "",
+        "desc": "Very rare crystal only found in the deep biome. Decorational.",
+        "placeable": true,
+        "dim": [2, 2]
+    },
+    {
+        "id": "38",
+        "name": "rainbow-crystal",
+        "ui": "Rainbow Crystal",
+        "sprite": "Inventory/ground/crystal-rainbow",
+        "placedSprite": "",
+        "desc": "A very rare crystal found in most biomes. Decorational.",
+        "placeable": true,
+        "dim": [2, 3]
+    },
+    {
+        "id": "39",
+        "name": "onyx",
+        "ui": "Onyx",
+        "sprite": "Inventory/ground/onyx",
+        "placedSprite": "",
+        "desc": "An extremely rare gem found in most biomes. Used to create powerful weapons and tools. Also used to upgrade technology.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "40",
+        "name": "platinum-ore",
+        "ui": "Platinum Ore",
+        "sprite": "Inventory/ground/platinum-ore",
+        "placedSprite": "",
+        "desc": "A rare pile of platinum. In large quanities, it is used to upgrade onyx tier items. Highest tier material in the game besides the beta tools.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "41",
+        "name": "ice",
+        "ui": "Ice",
+        "sprite": "Inventory/arctic/ice",
+        "placedSprite": "",
+        "desc": "Common material only found in the arctic biome. Can be used to craft a large variety of ice themed blocks and decoration.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "42",
+        "name": "snow",
+        "ui": "Snow",
+        "sprite": "Inventory/arctic/snow",
+        "placedSprite": "",
+        "desc": "Common material only found in the arctic biome. Can be used to craft a large variety of snow themed blocks and decoration.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "43",
+        "name": "water",
+        "ui": "Water Block",
+        "sprite": "Inventory/liquid/water",
+        "placedSprite": "",
+        "desc": "Common fluid. Unobtainable. Can be packed into jars.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "44",
+        "name": "acid",
+        "ui": "Acid Block",
+        "sprite": "Inventory/liquid/acid",
+        "placedSprite": "",
+        "desc": "Common fluid. Unobtainable. Can be packed into jars.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "45",
+        "name": "magma",
+        "ui": "Magma Block",
+        "sprite": "Inventory/liquid/magma",
+        "placedSprite": "",
+        "desc": "Uncommon fluid. Unobtainable.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "46",
+        "name": "wood",
+        "ui": "Wood",
+        "sprite": "Inventory/building/wood",
+        "placedSprite": "",
+        "desc": "A pile of wood. Used in a variety of recipes and applications.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "47",
+        "name": "stone",
+        "ui": "Stone",
+        "sprite": "Inventory/ground/stone",
+        "placedSprite": "",
+        "desc": "A pile of stone. Used in a lot of recipes and applications.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "48",
+        "name": "pitch",
+        "ui": "Pitch",
+        "sprite": "Inventory/building/pitch",
+        "placedSprite": "",
+        "desc": "A pitch barrel. Used in a lot of construction applications.",
+        "placeable": true,
+        "dim": 1,
+        "recipe": "<:wood:740787908990074932> x 1&&<:flax:740785872898752564> x 2"
+    },
+    {
+        "id": "49",
+        "name": "wood-backdrop",
+        "ui": "Wood Backdrop",
+        "sprite": "Inventory/back/wood",
+        "placedSprite": "",
+        "desc": "A wood backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1,
+        "recipe": "<:wood:740787908990074932> x 1"
+    },
+    {
+        "id": "50",
+        "name": "wood-panel",
+        "ui": "Wood Panel",
+        "sprite": "Inventory/back/wood-panel",
+        "placedSprite": "",
+        "desc": "A wood panel. Decorational.",
+        "placeable": true,
+        "dim": 1,
+        "recipe": "<:wood:740787908990074932> x 1"
+    },
+    {
+        "id": "51",
+        "name": "fancy-wood-panel",
+        "ui": "Fancy Wood Panel",
+        "sprite": "Inventory/back/wood-panel-decorative",
+        "placedSprite": "",
+        "desc": "A fancy wood panel. Decorational.",
+        "placeable": true,
+        "dim": 1,
+        "recipe": "<:wood:740787908990074932> x 1"
+    },
+    {
+        "id": "52",
+        "name": "wood-block",
+        "ui": "Wood Block",
+        "sprite": "Inventory/building/wood-board",
+        "placedSprite": "",
+        "desc": "A wood block. Decorational.",
+        "placeable": true,
+        "dim": 1,
+        "recipe": "<:wood:740787908990074932> x 1"
+    },
+    {
+        "id": "53",
+        "name": "fancy-wood-block",
+        "ui": "Fancy Wood Block",
+        "sprite": "Inventory/building/wood-decorative",
+        "placedSprite": "",
+        "desc": "A fancy wood block. Decorational.",
+        "placeable": true,
+        "dim": 1,
+        "recipe": "<:wood:740787908990074932> x 1"
+    },
+    {
+        "id": "54",
+        "name": "glass-backdrop",
+        "ui": "Glass Backdrop",
+        "sprite": "Inventory/back/glass",
+        "placedSprite": "",
+        "desc": "A glass backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1,
+        "recipe": "<:quartzore:740747569084366878> x 1&&<:wood:740787908990074932> x 1"
+    },
+    {
+        "id": "55",
+        "name": "fancy-glass-backdrop",
+        "ui": "Fancy Glass Backdrop",
+        "sprite": "Inventory/back/glass-divided",
+        "placedSprite": "",
+        "desc": "A fancy glass backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1,
+        "recipe": "<:quartzore:740747569084366878> x 1&&<:wood:740787908990074932> x 1"
+    },
+    {
+        "id": "56",
+        "name": "glass-block",
+        "ui": "Glass Block",
+        "sprite": "Inventory/building/glass",
+        "placedSprite": "",
+        "desc": "A shiny blob of glass. Decorational.",
+        "placeable": true,
+        "dim": 1,
+        "recipe": "<:quartzore:740747569084366878> x 1"
+    },
+    {
+        "id": "57",
+        "name": "porcelain",
+        "ui": "Porcelain",
+        "sprite": "Inventory/building/porcelain",
+        "placedSprite": "",
+        "desc": "A porcelain block. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "58",
+        "name": "adobe-brick-backdrop",
+        "ui": "Adobe Brick Backdrop",
+        "sprite": "Inventory/back/adobe",
+        "placedSprite": "",
+        "desc": "An adobe backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "59",
+        "name": "adobe-brick",
+        "ui": "Adobe Brick",
+        "sprite": "Inventory/building/adobe",
+        "placedSprite": "",
+        "desc": "An adobe brick. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "60",
+        "name": "stone-brick-backdrop",
+        "ui": "Stone Brick Backdrop",
+        "sprite": "Inventory/back/stone",
+        "placedSprite": "",
+        "desc": "A stone brick backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "61",
+        "name": "stone-brick",
+        "ui": "Stone Brick",
+        "sprite": "Inventory/building/stone",
+        "placedSprite": "",
+        "desc": "A stone brick. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "62",
+        "name": "gray-cobble-backdrop",
+        "ui": "Gray Cobblestone Backdrop",
+        "sprite": "Inventory/back/cobblestone-gray",
+        "placedSprite": "",
+        "desc": "A gray cobblestone backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "63",
+        "name": "gray-cobble",
+        "ui": "Gray Cobblestone",
+        "sprite": "Inventory/building/cobblestone-gray",
+        "placedSprite": "",
+        "desc": "A gray cobblestone. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "64",
+        "name": "tan-cobble-backdrop",
+        "ui": "Tan Cobblestone Backdrop",
+        "sprite": "Inventory/back/cobblestone-tan",
+        "placedSprite": "",
+        "desc": "A tan cobblestone backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "65",
+        "name": "tan-cobble",
+        "ui": "Tan Cobblestone",
+        "sprite": "Inventory/building/cobblestone-tan",
+        "placedSprite": "",
+        "desc": "A tan cobblestone. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "66",
+        "name": "sandstone-brick-backdrop",
+        "ui": "Sandstone Brick Backdrop",
+        "sprite": "Inventory/back/sandstone",
+        "placedSprite": "",
+        "desc": "A sandstone brick backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "67",
+        "name": "sandstone-brick",
+        "ui": "Sandstone Brick",
+        "sprite": "Inventory/building/sandstone",
+        "placedSprite": "",
+        "desc": "A sandstone brick. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "68",
+        "name": "limestone-brick-backdrop",
+        "ui": "Limestone Brick Backdrop",
+        "sprite": "Inventory/back/limestone",
+        "placedSprite": "",
+        "desc": "A limestone brick backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "69",
+        "name": "limestone-brick",
+        "ui": "Limestone Brick",
+        "sprite": "Inventory/building/limestone",
+        "placedSprite": "",
+        "desc": "A limestone brick. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "70",
+        "name": "brick-backdrop",
+        "ui": "Brick Backdrop",
+        "sprite": "Inventory/back/brick",
+        "placedSprite": "",
+        "desc": "A brick backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "71",
+        "name": "brick",
+        "ui": "Brick",
+        "sprite": "Inventory/building/brick",
+        "placedSprite": "",
+        "desc": "A brick. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "72",
+        "name": "chromatic-block",
+        "ui": "Chromatic Block",
+        "sprite": "Inventory/chromatic/block",
+        "placedSprite": "",
+        "desc": "An unobtainable chromatic block. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "73",
+        "name": "reinforced-chromatic-block",
+        "ui": "Reinforced Chromatic Block",
+        "sprite": "Inventory/chromatic/block-reinforced",
+        "placedSprite": "",
+        "desc": "An unobtainable reinforced chromatic block. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "74",
+        "name": "chromatic-backdrop",
+        "ui": "Chromatic Backdrop",
+        "sprite": "Inventory/back/chromatic",
+        "placedSprite": "",
+        "desc": "An unobtainable chromatic backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "75",
+        "name": "roofing",
+        "ui": "Roofing",
+        "sprite": "Inventory/building/roof",
+        "placedSprite": "",
+        "desc": "A roofing. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "76",
+        "name": "brown-roofing",
+        "ui": "Brown Roofing",
+        "sprite": "Inventory/building/roof-brown",
+        "placedSprite": "",
+        "desc": "A brown roofing. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "77",
+        "name": "brass-roofing",
+        "ui": "Brass Roofing",
+        "sprite": "Inventory/building/roof-brass",
+        "placedSprite": "",
+        "desc": "A brass roofing. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "78",
+        "name": "spanish-roofing",
+        "ui": "Spanish Roofing",
+        "sprite": "Inventory/building/roof-spanish",
+        "placedSprite": "",
+        "desc": "A spanish roofing. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "79",
+        "name": "ice-brick-backdrop",
+        "ui": "Ice Brick Backdrop",
+        "sprite": "Inventory/back/ice-brick",
+        "placedSprite": "",
+        "desc": "An ice brick backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "80",
+        "name": "ice-brick",
+        "ui": "Ice Brick",
+        "sprite": "Inventory/arctic/ice-brick",
+        "placedSprite": "",
+        "desc": "An ice brick. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "81",
+        "name": "snow-brick-backdrop",
+        "ui": "Snow Brick Backdrop",
+        "sprite": "Inventory/back/snow-brick",
+        "placedSprite": "",
+        "desc": "A snow brick backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "82",
+        "name": "snow-brick",
+        "ui": "Snow Brick",
+        "sprite": "Inventory/arctic/snow-brick",
+        "placedSprite": "",
+        "desc": "A snow brick. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "83",
+        "name": "rope-bridge-block",
+        "ui": "Rope Bridge Platform",
+        "sprite": "Inventory/building/bridge-rope-block",
+        "placedSprite": "",
+        "desc": "A rope bridge platform. Use to build rope bridges.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "84",
+        "name": "rope-bridge-end",
+        "ui": "Rope Bridge Support",
+        "sprite": "Inventory/building/bridge-rope-end",
+        "placedSprite": "",
+        "desc": "A rope bridge support. Use on the ends of a rope bridge.",
+        "placeable": true,
+        "dim": [2, 1]
+    },
+    {
+        "id": "85",
+        "name": "rope-bridge-railing",
+        "ui": "Rope Bridge Railing",
+        "sprite": "Inventory/building/bridge-rope-railing",
+        "placedSprite": "",
+        "desc": "A rope bridge railing. Use on top of rope bridges.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "86",
+        "name": "wood-bridge-support",
+        "ui": "Wood Bridge Support",
+        "sprite": "Inventory/building/bridge-wood",
+        "placedSprite": "",
+        "desc": "A wood bridge support. Use it to support a wood bridge.",
+        "placeable": true,
+        "dim": [4, 3]
+    },
+    {
+        "id": "87",
+        "name": "wood-bridge-block",
+        "ui": "Wood Bridge Platform",
+        "sprite": "Inventory/building/bridge-wood-block",
+        "placedSprite": "",
+        "desc": "A wood bridge platform. Use it to build a wood bridge.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "88",
+        "name": "wood-bridge-railing",
+        "ui": "Wood Bridge Railing",
+        "sprite": "Inventory/building/bridge-wood-railing",
+        "placedSprite": "",
+        "desc": "A wood bridge railing. Use it on top of a wood bridge.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "89",
+        "name": "stone-bridge-support",
+        "ui": "Stone Bridge Support",
+        "sprite": "Inventory/building/bridge-stone",
+        "placedSprite": "",
+        "desc": "A stone bridge support. Use it to support a stone bridge.",
+        "placeable": true,
+        "dim": [4, 3]
+    },
+    {
+        "id": "90",
+        "name": "stone-bridge-block",
+        "ui": "Stone Bridge Platform",
+        "sprite": "Inventory/building/bridge-stone-block",
+        "placedSprite": "",
+        "desc": "A stone bridge platform. Use it to build a stone bridge.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "91",
+        "name": "stone-bridge-railing",
+        "ui": "Stone Bridge Railing",
+        "sprite": "Inventory/building/bridge-stone-railing",
+        "placedSprite": "",
+        "desc": "A stone bridge railing. Place it on top of stone bridges.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "92",
+        "name": "metal-bridge-support",
+        "ui": "Metal Bridge Support",
+        "sprite": "Inventory/building/bridge",
+        "placedSprite": "",
+        "desc": "A metal bridge support. Use it to support a metal bridge.",
+        "placeable": true,
+        "dim": [4, 3]
+    },
+    {
+        "id": "93",
+        "name": "metal-bridge-block",
+        "ui": "Metal Bridge Platform",
+        "sprite": "Inventory/building/bridge-block",
+        "placedSprite": "",
+        "desc": "A metal bridge platform. Use it to build a metal bridge.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "94",
+        "name": "metal-bridge-railing",
+        "ui": "Metal Bridge Railing",
+        "sprite": "Inventory/building/bridge-metal-railing",
+        "placedSprite": "",
+        "desc": "A metal bridge railing. Place it on top of metal bridges.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "95",
+        "name": "gravestone",
+        "ui": "Gravestone",
+        "sprite": "Inventory/rubble/gravestone",
+        "placedSprite": "",
+        "desc": "An old gravestone. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "96",
+        "name": "bone-wall",
+        "ui": "Bone Wall",
+        "sprite": "Inventory/ground/bone-wall",
+        "placedSprite": "",
+        "desc": "A wall of bones. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "97",
+        "name": "iron-scrap-metal",
+        "ui": "Iron Scrap",
+        "sprite": "Inventory/rubble/iron",
+        "placedSprite": "",
+        "desc": "Some iron scrap. Bring to a recycler to turn into raw material.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "98",
+        "name": "copper-scrap-metal",
+        "ui": "Copper Scrap",
+        "sprite": "Inventory/rubble/copper",
+        "placedSprite": "",
+        "desc": "Some copper scrap. Bring to a recycler to turn into raw material.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "99",
+        "name": "brass-scrap-metal",
+        "ui": "Brass Scrap",
+        "sprite": "Inventory/rubble/brass",
+        "placedSprite": "",
+        "desc": "Some brass scrap. Bring to a recycler to turn into raw material.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "100",
+        "name": "iron-block",
+        "ui": "Iron Block",
+        "sprite": "Inventory/building/iron",
+        "placedSprite": "",
+        "desc": "Raw iron. Use it to craft tools, machines and more.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "101",
+        "name": "iron-backdrop",
+        "ui": "Item Backdrop",
+        "sprite": "Inventory/back/iron",
+        "placedSprite": "",
+        "desc": "An iron backdrop. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "102",
+        "name": "reinforced-iron-block",
+        "ui": "Reinforced Iron Block",
+        "sprite": "Inventory/building/iron-reinforced",
+        "placedSprite": "",
+        "desc": "A reinforced iron block. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "103",
+        "name": "scaffolding",
+        "ui": "Scaffolding",
+        "sprite": "Inventory/back/scaffold",
+        "placedSprite": "",
+        "desc": "A scaffold support. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "104",
+        "name": "decayed-scaffolding",
+        "ui": "Decayed Scaffolding",
+        "sprite": "Inventory/back/scaffold-decayed",
+        "placedSprite": "",
+        "desc": "An unobtainable decayed scaffold support. Decorational.",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "105",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "106",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "107",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "108",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "109",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "110",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "111",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "112",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "113",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "114",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "115",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    },
+    {
+        "id": "116",
+        "name": "",
+        "ui": "",
+        "sprite": "",
+        "placedSprite": "",
+        "desc": "",
+        "placeable": true,
+        "dim": 1
+    }
 ]

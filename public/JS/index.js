@@ -9,7 +9,7 @@ loadImage = async img => {
 };
 
 var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function () {
+xhttp.onreadystatechange = async function () {
 	if (this.readyState == 4 && this.status == 200) {
 		var obj = this.responseText;
 		itemData = JSON.parse(obj);
@@ -20,7 +20,6 @@ xhttp.onreadystatechange = function () {
 			newElement.setAttribute("class", "sectionData");
 			let img = new Image();
 			img.src = "./Sprites/" + e.sprite + ".png";
-			await loadImage(img);
 			img.setAttribute("class", "sectionDataSprite");
 			newElement.innerHTML = `<span class="sectionDataName">${e.ui}</span><br><br><a href="./itemData?itemId=${e.id}" class="sectionDataLink">${e.ui}</a><br>`;
 			document.querySelector(".itemData").appendChild(newElement);
