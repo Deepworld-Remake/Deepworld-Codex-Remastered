@@ -133,7 +133,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "16",
+    "id": "15",
     "name": "copper-ore",
     "ui": "Copper Ore",
     "sprite": "Inventory/ground/copper-ore",
@@ -142,7 +142,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "17",
+    "id": "16",
     "name": "zinc-ore",
     "ui": "Zinc Ore",
     "sprite": "Inventory/ground/zinc-ore",
@@ -151,7 +151,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "18",
+    "id": "17",
     "name": "lead-ore",
     "ui": "Lead Ore",
     "sprite": "Inventory/ground/lead-ore",
@@ -160,7 +160,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "19",
+    "id": "18",
     "name": "quartz-ore",
     "ui": "Quartz Ore",
     "sprite": "Inventory/ground/quartz-ore",
@@ -169,7 +169,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "20",
+    "id": "19",
     "name": "sulfur-ore",
     "ui": "Sulfur Ore",
     "sprite": "Inventory/ground/sulfur-ore",
@@ -178,7 +178,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "21",
+    "id": "20",
     "name": "marble-ore",
     "ui": "Marble Ore",
     "sprite": "Inventory/ground/marble-ore",
@@ -187,7 +187,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "22",
+    "id": "21",
     "name": "bloodstone-ore",
     "ui": "Bloodstone Ore",
     "sprite": "Inventory/ground/bloodstone-ore",
@@ -195,7 +195,7 @@
     "desc": "Uncommon ore only found in the hell biome. Mainly used to craft bloodstone variations of marble items and statues.",
     "dim": 1
 }, {
-    "id": "23",
+    "id": "22",
     "name": "beryllium-ore",
     "ui": "Beryllium Ore",
     "sprite": "Inventory/ground/beryllium-ore",
@@ -204,7 +204,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "24",
+    "id": "23",
     "name": "diamond-ore",
     "ui": "Diamond Ore",
     "sprite": "Inventory/ground/diamond-ore",
@@ -213,7 +213,7 @@
     "dim": 1,
     "props": ["Placeable", "Explosion-proof"]
 }, {
-    "id": "25",
+    "id": "24",
     "name": "blue-crystal",
     "ui": "Blue Crystal",
     "sprite": "Inventory/ground/crystal-blue-1",
@@ -222,7 +222,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "26",
+    "id": "25",
     "name": "medium-blue-crystal",
     "ui": "Medium Blue Crystal",
     "sprite": "Inventory/ground/crystal-blue-2",
@@ -231,7 +231,7 @@
     "dim": [1, 2],
     "props": ["Placeable"]
 }, {
-    "id": "27",
+    "id": "26",
     "name": "large-blue-crystal",
     "ui": "Large Blue Crystal",
     "sprite": "Inventory/ground/crystal-blue-4",
@@ -240,7 +240,7 @@
     "dim": [1, 3],
     "props": ["Placeable"]
 }, {
-    "id": "28",
+    "id": "27",
     "name": "purple-crystal",
     "ui": "Purple Crystal",
     "sprite": "Inventory/ground/crystal-purple-1",
@@ -249,7 +249,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "29",
+    "id": "28",
     "name": "large-purple-crystal",
     "ui": "Large Purple Crystal",
     "sprite": "Inventory/ground/crystal-purple-large",
@@ -258,7 +258,7 @@
     "dim": [1, 2],
     "props": ["Placeable"]
 }, {
-    "id": "30",
+    "id": "29",
     "name": "red-crystal",
     "ui": "Red Crystal",
     "sprite": "Inventory/ground/crystal-red-1",
@@ -267,7 +267,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "31",
+    "id": "30",
     "name": "large-red-crystal",
     "ui": "Large Red Crystal",
     "sprite": "Inventory/ground/crystal-red-large",
@@ -276,7 +276,7 @@
     "dim": [1, 2],
     "props": ["Placeable"]
 }, {
-    "id": "32",
+    "id": "31",
     "name": "green-crystal",
     "ui": "Green Crystal",
     "sprite": "Inventory/ground/crystal-green-small",
@@ -285,7 +285,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "33",
+    "id": "32",
     "name": "large-green-crystal",
     "ui": "Large Green Crystal",
     "sprite": "Inventory/ground/crystal-green-large",
@@ -294,7 +294,7 @@
     "dim": [1, 2],
     "props": ["Placeable"]
 }, {
-    "id": "34",
+    "id": "33",
     "name": "white-crystal",
     "ui": "White Crystal",
     "sprite": "Inventory/ground/crystal-white-small",
@@ -303,7 +303,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "35",
+    "id": "34",
     "name": "large-white-crystal",
     "ui": "Large White Crystal",
     "sprite": "Inventory/ground/crystal-white-large",
@@ -312,7 +312,7 @@
     "dim": [1, 2],
     "props": ["Placeable"]
 }, {
-    "id": "36",
+    "id": "35",
     "name": "yellow-crystal",
     "ui": "Yellow Crystal",
     "sprite": "Inventory/ground/crystal-yellow",
@@ -321,7 +321,7 @@
     "dim": [1, 2],
     "props": ["Placeable"]
 }, {
-    "id": "37",
+    "id": "36",
     "name": "orange-crystal",
     "ui": "Orange Crystal",
     "sprite": "Inventory/ground/crystal-orange",
@@ -330,7 +330,7 @@
     "dim": [2, 2],
     "props": ["Placeable"]
 }, {
-    "id": "38",
+    "id": "37",
     "name": "rainbow-crystal",
     "ui": "Rainbow Crystal",
     "sprite": "Inventory/ground/crystal-rainbow",
@@ -339,7 +339,7 @@
     "dim": [2, 3],
     "props": ["Placeable"]
 }, {
-    "id": "39",
+    "id": "38",
     "name": "onyx",
     "ui": "Onyx",
     "sprite": "Inventory/ground/onyx",
@@ -348,7 +348,7 @@
     "dim": 1,
     "props": ["Placeable", "Explosion-proof"]
 }, {
-    "id": "40",
+    "id": "39",
     "name": "platinum-ore",
     "ui": "Platinum Ore",
     "sprite": "Inventory/ground/platinum-ore",
@@ -357,7 +357,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "41",
+    "id": "40",
     "name": "ice",
     "ui": "Ice",
     "sprite": "Inventory/arctic/ice",
@@ -366,7 +366,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "42",
+    "id": "41",
     "name": "snow",
     "ui": "Snow",
     "sprite": "Inventory/arctic/snow",
@@ -375,7 +375,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "43",
+    "id": "42",
     "name": "water",
     "ui": "Water Block",
     "sprite": "Inventory/liquid/water",
@@ -384,7 +384,7 @@
     "dim": 1,
     "props": ["Placeable", "Unobtainable"]
 }, {
-    "id": "44",
+    "id": "43",
     "name": "acid",
     "ui": "Acid Block",
     "sprite": "Inventory/liquid/acid",
@@ -393,7 +393,7 @@
     "dim": 1,
     "props": ["Placeable", "Unobtainable"]
 }, {
-    "id": "45",
+    "id": "44",
     "name": "magma",
     "ui": "Magma Block",
     "sprite": "Inventory/liquid/magma",
@@ -402,7 +402,7 @@
     "dim": 1,
     "props": ["Placeable", "Unobtainable"]
 }, {
-    "id": "46",
+    "id": "45",
     "name": "wood",
     "ui": "Wood",
     "sprite": "Inventory/building/wood",
@@ -412,7 +412,7 @@
     "props": ["Placeable"],
     "recipe": "<:wood1:740978218303225887> x 2"
 }, {
-    "id": "47",
+    "id": "46",
     "name": "stone",
     "ui": "Stone",
     "sprite": "Inventory/ground/stone",
@@ -422,7 +422,7 @@
     "props": ["Placeable"],
     "recipe": "<:stonepile1:740978218257088654> x 2"
 }, {
-    "id": "48",
+    "id": "47",
     "name": "pitch",
     "ui": "Pitch",
     "sprite": "Inventory/building/pitch",
@@ -432,7 +432,7 @@
     "props": ["Placeable"],
     "recipe": "<:wood:740787908990074932> x 1&&<:flax:740785872898752564> x 2"
 }, {
-    "id": "49",
+    "id": "48",
     "name": "wood-backdrop",
     "ui": "Wood Backdrop",
     "sprite": "Inventory/back/wood",
@@ -442,7 +442,7 @@
     "props": ["Placeable"],
     "recipe": "<:wood:740787908990074932> x 1"
 }, {
-    "id": "50",
+    "id": "49",
     "name": "wood-panel",
     "ui": "Wood Panel",
     "sprite": "Inventory/back/wood-panel",
@@ -452,7 +452,7 @@
     "props": ["Placeable"],
     "recipe": "<:wood:740787908990074932> x 1"
 }, {
-    "id": "51",
+    "id": "50",
     "name": "fancy-wood-panel",
     "ui": "Fancy Wood Panel",
     "sprite": "Inventory/back/wood-panel-decorative",
@@ -462,7 +462,7 @@
     "props": ["Placeable"],
     "recipe": "<:wood:740787908990074932> x 1"
 }, {
-    "id": "52",
+    "id": "51",
     "name": "wood-block",
     "ui": "Wood Block",
     "sprite": "Inventory/building/wood-board",
@@ -472,7 +472,7 @@
     "props": ["Placeable"],
     "recipe": "<:wood:740787908990074932> x 1"
 }, {
-    "id": "53",
+    "id": "52",
     "name": "fancy-wood-block",
     "ui": "Fancy Wood Block",
     "sprite": "Inventory/building/wood-decorative",
@@ -482,7 +482,7 @@
     "props": ["Placeable"],
     "recipe": "<:wood:740787908990074932> x 1"
 }, {
-    "id": "54",
+    "id": "53",
     "name": "glass-backdrop",
     "ui": "Glass Backdrop",
     "sprite": "Inventory/back/glass",
@@ -492,7 +492,7 @@
     "props": ["Placeable"],
     "recipe": "<:quartzore:740747569084366878> x 1&&<:wood:740787908990074932> x 1"
 }, {
-    "id": "55",
+    "id": "54",
     "name": "fancy-glass-backdrop",
     "ui": "Fancy Glass Backdrop",
     "sprite": "Inventory/back/glass-divided",
@@ -502,7 +502,7 @@
     "props": ["Placeable"],
     "recipe": "<:quartzore:740747569084366878> x 1&&<:wood:740787908990074932> x 1"
 }, {
-    "id": "56",
+    "id": "55",
     "name": "glass-block",
     "ui": "Glass Block",
     "sprite": "Inventory/building/glass",
@@ -512,7 +512,7 @@
     "props": ["Placeable"],
     "recipe": "<:quartzore:740747569084366878> x 1"
 }, {
-    "id": "57",
+    "id": "56",
     "name": "porcelain",
     "ui": "Porcelain",
     "sprite": "Inventory/building/porcelain",
@@ -521,7 +521,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "58",
+    "id": "57",
     "name": "adobe-brick-backdrop",
     "ui": "Adobe Brick Backdrop",
     "sprite": "Inventory/back/adobe",
@@ -531,7 +531,7 @@
     "props": ["Placeable"],
     "recipe": "<:stone:740785872810803341> x 1&&<:earth:740979562082467942> x 1"
 }, {
-    "id": "59",
+    "id": "58",
     "name": "adobe-brick",
     "ui": "Adobe Brick",
     "sprite": "Inventory/building/adobe",
@@ -541,7 +541,7 @@
     "props": ["Placeable"],
     "recipe": "<:stone:740785872810803341> x 1&&<:earth:740979562082467942> x 1"
 }, {
-    "id": "60",
+    "id": "59",
     "name": "stone-brick-backdrop",
     "ui": "Stone Brick Backdrop",
     "sprite": "Inventory/back/stone",
@@ -551,7 +551,7 @@
     "props": ["Placeable"],
     "recipe": "<:stone:740785872810803341> x 1"
 }, {
-    "id": "61",
+    "id": "60",
     "name": "stone-brick",
     "ui": "Stone Brick",
     "sprite": "Inventory/building/stone",
@@ -561,7 +561,7 @@
     "props": ["Placeable"],
     "recipe": "<:stone:740785872810803341> x 1"
 }, {
-    "id": "62",
+    "id": "61",
     "name": "gray-cobble-backdrop",
     "ui": "Gray Cobblestone Backdrop",
     "sprite": "Inventory/back/cobblestone-gray",
@@ -571,7 +571,7 @@
     "props": ["Placeable"],
     "recipe": "<:stone:740785872810803341> x 1"
 }, {
-    "id": "63",
+    "id": "62",
     "name": "gray-cobble",
     "ui": "Gray Cobblestone",
     "sprite": "Inventory/building/cobblestone-gray",
@@ -581,7 +581,7 @@
     "props": ["Placeable"],
     "recipe": "<:stone:740785872810803341> x 1"
 }, {
-    "id": "64",
+    "id": "63",
     "name": "tan-cobble-backdrop",
     "ui": "Tan Cobblestone Backdrop",
     "sprite": "Inventory/back/cobblestone-tan",
@@ -591,7 +591,7 @@
     "props": ["Placeable"],
     "recipe": "<:stone:740785872810803341> x 1"
 }, {
-    "id": "65",
+    "id": "64",
     "name": "tan-cobble",
     "ui": "Tan Cobblestone",
     "sprite": "Inventory/building/cobblestone-tan",
@@ -601,7 +601,7 @@
     "props": ["Placeable"],
     "recipe": "<:stone:740785872810803341> x 1"
 }, {
-    "id": "66",
+    "id": "65",
     "name": "sandstone-brick-backdrop",
     "ui": "Sandstone Brick Backdrop",
     "sprite": "Inventory/back/sandstone",
@@ -611,7 +611,7 @@
     "props": ["Placeable"],
     "recipe": "<:sandstone:740979867582988479> x 1"
 }, {
-    "id": "67",
+    "id": "66",
     "name": "sandstone-brick",
     "ui": "Sandstone Brick",
     "sprite": "Inventory/building/sandstone",
@@ -621,7 +621,7 @@
     "props": ["Placeable"],
     "recipe": "<:sandstone:740979867582988479> x 1"
 }, {
-    "id": "68",
+    "id": "67",
     "name": "limestone-brick-backdrop",
     "ui": "Limestone Brick Backdrop",
     "sprite": "Inventory/back/limestone",
@@ -631,7 +631,7 @@
     "props": ["Placeable"],
     "recipe": "<:limestone:740979867713273860> x 1"
 }, {
-    "id": "69",
+    "id": "68",
     "name": "limestone-brick",
     "ui": "Limestone Brick",
     "sprite": "Inventory/building/limestone",
@@ -641,7 +641,7 @@
     "props": ["Placeable"],
     "recipe": "<:limestone:740979867713273860> x 1"
 }, {
-    "id": "70",
+    "id": "69",
     "name": "brick-backdrop",
     "ui": "Brick Backdrop",
     "sprite": "Inventory/back/brick",
@@ -651,7 +651,7 @@
     "props": ["Placeable"],
     "recipe": "<:clay:740980340256145489> x 1"
 }, {
-    "id": "71",
+    "id": "70",
     "name": "brick",
     "ui": "Brick",
     "sprite": "Inventory/building/brick",
@@ -661,7 +661,7 @@
     "props": ["Placeable"],
     "recipe": "<:clay:740980340256145489> x 1"
 }, {
-    "id": "72",
+    "id": "71",
     "name": "chromatic-block",
     "ui": "Chromatic Block",
     "sprite": "Inventory/chromatic/block",
@@ -670,7 +670,7 @@
     "dim": 1,
     "props": ["Placeable", "Unobtainable", "Explosion-proof"]
 }, {
-    "id": "73",
+    "id": "72",
     "name": "reinforced-chromatic-block",
     "ui": "Reinforced Chromatic Block",
     "sprite": "Inventory/chromatic/block-reinforced",
@@ -679,7 +679,7 @@
     "dim": 1,
     "props": ["Placeable", "Unobtainable", "Explosion-proof"]
 }, {
-    "id": "74",
+    "id": "73",
     "name": "chromatic-backdrop",
     "ui": "Chromatic Backdrop",
     "sprite": "Inventory/back/chromatic",
@@ -688,7 +688,7 @@
     "dim": 1,
     "props": ["Placeable", "Unobtainable", "Explosion-proof"]
 }, {
-    "id": "75",
+    "id": "74",
     "name": "roofing",
     "ui": "Roofing",
     "sprite": "Inventory/building/roof",
@@ -698,7 +698,7 @@
     "props": ["Placeable"],
     "recipe": "<:pitch:740980747212554250> x 1&&<:clay:740980340256145489> x 1"
 }, {
-    "id": "76",
+    "id": "75",
     "name": "brown-roofing",
     "ui": "Brown Roofing",
     "sprite": "Inventory/building/roof-brown",
@@ -708,7 +708,7 @@
     "props": ["Placeable"],
     "recipe": "<:pitch:740980747212554250> x 1&&<:wood:740787908990074932> x 1"
 }, {
-    "id": "77",
+    "id": "76",
     "name": "brass-roofing",
     "ui": "Brass Roofing",
     "sprite": "Inventory/building/roof-brass",
@@ -719,7 +719,7 @@
     "props": ["Placeable"],
     "recipe": "<:pitch:740980747212554250> x 1&&<:brass:740981505668546620> x 1"
 }, {
-    "id": "78",
+    "id": "77",
     "name": "spanish-roofing",
     "ui": "Spanish Roofing",
     "sprite": "Inventory/building/roof-spanish",
@@ -729,7 +729,7 @@
     "props": ["Placeable"],
     "recipe": "<:pitch:740980747212554250> x 1&&<:wood:740787908990074932> x 1"
 }, {
-    "id": "79",
+    "id": "78",
     "name": "ice-brick-backdrop",
     "ui": "Ice Brick Backdrop",
     "sprite": "Inventory/back/ice-brick",
@@ -739,7 +739,7 @@
     "props": ["Placeable"],
     "recipe": "<:ice:740979906489352303> x 1"
 }, {
-    "id": "80",
+    "id": "79",
     "name": "ice-brick",
     "ui": "Ice Brick",
     "sprite": "Inventory/arctic/ice-brick",
@@ -749,7 +749,7 @@
     "props": ["Placeable"],
     "recipe": "<:ice:740979906489352303> x 1"
 }, {
-    "id": "81",
+    "id": "80",
     "name": "snow-brick-backdrop",
     "ui": "Snow Brick Backdrop",
     "sprite": "Inventory/back/snow-brick",
@@ -759,7 +759,7 @@
     "props": ["Placeable"],
     "recipe": "<:snow:740979906422374512> x 1"
 }, {
-    "id": "82",
+    "id": "81",
     "name": "snow-brick",
     "ui": "Snow Brick",
     "sprite": "Inventory/arctic/snow-brick",
@@ -769,7 +769,7 @@
     "props": ["Placeable"],
     "recipe": "<:snow:740979906422374512> x 1"
 }, {
-    "id": "83",
+    "id": "82",
     "name": "rope-bridge-block",
     "ui": "Rope Bridge Platform",
     "sprite": "Inventory/building/bridge-rope-block",
@@ -778,7 +778,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "84",
+    "id": "83",
     "name": "rope-bridge-end",
     "ui": "Rope Bridge Support",
     "sprite": "Inventory/building/bridge-rope-end",
@@ -787,7 +787,7 @@
     "dim": [2, 1],
     "props": ["Placeable"]
 }, {
-    "id": "85",
+    "id": "84",
     "name": "rope-bridge-railing",
     "ui": "Rope Bridge Railing",
     "sprite": "Inventory/building/bridge-rope-railing",
@@ -796,7 +796,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "86",
+    "id": "85",
     "name": "wood-bridge-support",
     "ui": "Wood Bridge Support",
     "sprite": "Inventory/building/bridge-wood",
@@ -805,7 +805,7 @@
     "dim": [4, 3],
     "props": ["Placeable"]
 }, {
-    "id": "87",
+    "id": "86",
     "name": "wood-bridge-block",
     "ui": "Wood Bridge Platform",
     "sprite": "Inventory/building/bridge-wood-block",
@@ -814,7 +814,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "88",
+    "id": "87",
     "name": "wood-bridge-railing",
     "ui": "Wood Bridge Railing",
     "sprite": "Inventory/building/bridge-wood-railing",
@@ -823,7 +823,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "89",
+    "id": "88",
     "name": "stone-bridge-support",
     "ui": "Stone Bridge Support",
     "sprite": "Inventory/building/bridge-stone",
@@ -832,7 +832,7 @@
     "dim": [4, 3],
     "props": ["Placeable"]
 }, {
-    "id": "90",
+    "id": "89",
     "name": "stone-bridge-block",
     "ui": "Stone Bridge Platform",
     "sprite": "Inventory/building/bridge-stone-block",
@@ -841,7 +841,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "91",
+    "id": "90",
     "name": "stone-bridge-railing",
     "ui": "Stone Bridge Railing",
     "sprite": "Inventory/building/bridge-stone-railing",
@@ -850,7 +850,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "92",
+    "id": "91",
     "name": "metal-bridge-support",
     "ui": "Metal Bridge Support",
     "sprite": "Inventory/building/bridge",
@@ -859,7 +859,7 @@
     "dim": [4, 3],
     "props": ["Placeable"]
 }, {
-    "id": "93",
+    "id": "92",
     "name": "metal-bridge-block",
     "ui": "Metal Bridge Platform",
     "sprite": "Inventory/building/bridge-block",
@@ -868,7 +868,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "94",
+    "id": "93",
     "name": "metal-bridge-railing",
     "ui": "Metal Bridge Railing",
     "sprite": "Inventory/building/bridge-metal-railing",
@@ -877,7 +877,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "95",
+    "id": "94",
     "name": "gravestone",
     "ui": "Gravestone",
     "sprite": "Inventory/rubble/gravestone",
@@ -886,7 +886,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "96",
+    "id": "95",
     "name": "bone-wall",
     "ui": "Bone Wall",
     "sprite": "Inventory/ground/bone-wall",
@@ -895,7 +895,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "97",
+    "id": "96",
     "name": "iron-scrap-metal",
     "ui": "Iron Scrap",
     "sprite": "Inventory/rubble/iron",
@@ -904,7 +904,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "98",
+    "id": "97",
     "name": "copper-scrap-metal",
     "ui": "Copper Scrap",
     "sprite": "Inventory/rubble/copper",
@@ -913,7 +913,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "99",
+    "id": "98",
     "name": "brass-scrap-metal",
     "ui": "Brass Scrap",
     "sprite": "Inventory/rubble/brass",
@@ -922,7 +922,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "100",
+    "id": "99",
     "name": "iron-block",
     "ui": "Iron Block",
     "sprite": "Inventory/building/iron",
@@ -931,7 +931,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "101",
+    "id": "100",
     "name": "iron-backdrop",
     "ui": "Item Backdrop",
     "sprite": "Inventory/back/iron",
@@ -940,7 +940,7 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "102",
+    "id": "101",
     "name": "reinforced-iron-block",
     "ui": "Reinforced Iron Block",
     "sprite": "Inventory/building/iron-reinforced",
@@ -949,7 +949,7 @@
     "dim": 1,
     "props": ["Placeable", "Explosion-proof"]
 }, {
-    "id": "103",
+    "id": "102",
     "name": "scaffolding",
     "ui": "Scaffolding",
     "sprite": "Inventory/back/scaffold",
@@ -958,12 +958,21 @@
     "dim": 1,
     "props": ["Placeable"]
 }, {
-    "id": "104",
+    "id": "103",
     "name": "decayed-scaffolding",
     "ui": "Decayed Scaffolding",
     "sprite": "Inventory/back/scaffold-decayed",
     "placedSprite": "",
     "desc": "An unobtainable decayed scaffold support. Decorational.",
+    "dim": 1,
+    "props": ["Placeable"]
+}, {
+    "id": "104",
+    "name": "",
+    "ui": "",
+    "sprite": "",
+    "placedSprite": "",
+    "desc": "",
     "dim": 1,
     "props": ["Placeable"]
 }, {
@@ -1058,15 +1067,6 @@
     "props": ["Placeable"]
 }, {
     "id": "115",
-    "name": "",
-    "ui": "",
-    "sprite": "",
-    "placedSprite": "",
-    "desc": "",
-    "dim": 1,
-    "props": ["Placeable"]
-}, {
-    "id": "116",
     "name": "",
     "ui": "",
     "sprite": "",
