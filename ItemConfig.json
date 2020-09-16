@@ -965,7 +965,7 @@
     "placedSprite": "",
     "desc": "An unobtainable decayed scaffold support. Decorational.",
     "dim": 1,
-    "props": ["Placeable"]
+    "props": ["Placeable", "Unobtainable"]
 }, {
     "id": "104",
     "name": "",
