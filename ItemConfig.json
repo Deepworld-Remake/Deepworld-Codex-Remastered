@@ -927,9 +927,9 @@
     "ui": "Iron Block",
     "sprite": "Inventory/building/iron",
     "placedSprite": "",
-    "desc": "Raw iron. Use it to craft tools, machines and more.",
+    "desc": "Raw iron. Use it to craft tools, machines and more. Provides decent protection from bombs.",
     "dim": 1,
-    "props": ["Placeable"]
+    "props": ["Placeable", "Explosion-resistant"]
 }, {
     "id": "100",
     "name": "iron-backdrop",
@@ -968,13 +968,13 @@
     "props": ["Placeable", "Unobtainable"]
 }, {
     "id": "104",
-    "name": "",
-    "ui": "",
-    "sprite": "",
+    "name": "copper-block",
+    "ui": "Copper Block",
+    "sprite": "Inventory/building/copper",
     "placedSprite": "",
-    "desc": "",
+    "desc": "Raw copper. Use it to craft tools, machines and more. Provides minimal protection from bombs.",
     "dim": 1,
-    "props": ["Placeable"]
+    "props": ["Placeable", "Explosion-resistant"]
 }, {
     "id": "105",
     "name": "",
